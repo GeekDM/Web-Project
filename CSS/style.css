@@ -21,8 +21,19 @@ nav{
 	text-align:center;
 }
 nav a{
-	padding:10px;
 	letter-spacing:2px;
+}
+nav a::after{
+	content:"ㅣ";
+	color:gray;
+}
+nav a:last-child::after{
+	content:"";
+}
+.division-line{
+	border-top:1px solid white;
+	margin:30px auto;
+	width:300px;
 }
 a{
 	text-decoration:none;
