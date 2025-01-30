@@ -1,1 +1,22 @@
-p{color:red}
+*{
+	color:white;
+}
+body{
+	background-color:black;
+}
+header{
+	background-color:white;
+	padding:4px;
+}
+nav{
+	background-color:white;
+	margin:10px 20px;
+	padding:4px;
+	border:5px dashed black;
+}
+header a{
+	color:black;
+}
+a{
+	text-decoration:none;
+}
