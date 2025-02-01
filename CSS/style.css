@@ -31,7 +31,7 @@ nav a:last-child::after{
 	content:"";
 }
 .division-line{
-	border-top:1px solid white;
+	border-top:1px solid #444444;
 	margin:30px auto;
 	width:300px;
 }
