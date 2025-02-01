@@ -1,22 +1,31 @@
 *{
 	color:white;
 }
+a{
+	text-decoration:none;
+}
 body{
 	background-color:black;
 }
 header{
 	background-color:white;
-	padding:4px;
+	padding:20px;
 }
 header a{
 	color:black;
 	font-size:20px;
 	font-weight:bold;
 }
+.header .home{
+	width:10%;
+}
+.header .nav{
+	width:90%;
+}
 nav{
 	background-color:white;
 	margin:10px 20px;
-	padding:4px;
+	padding:20px;
 	border:5px dashed black;
 	text-align:center;
 }
@@ -30,11 +39,13 @@ nav a::after{
 nav a:last-child::after{
 	content:"";
 }
+#main{
+	
+}
+
 .division-line{
 	border-top:1px solid #444444;
 	margin:30px auto;
 	width:300px;
 }
-a{
-	text-decoration:none;
-}
+
