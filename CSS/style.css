@@ -1,5 +1,4 @@
 *{
-	color:white;
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
@@ -11,17 +10,39 @@ a{
 li{
 	list-style:none;
 }
+
 body{
-	background-color:black;
+
+}
+.container{
+	width:1140px;
+	margin:0 auto;
 }
 header{
-	background-color:white;
-	padding:20px;
+	position:absolute;
+	top:0;
+	z-index:1;
+	width:100%;
+	padding:1rem;
 }
-header a{
-	color:black;
-	font-size:20px;
+header .container{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+}
+header nav ul{
+	display:flex;
+}
+header nav ul li{
+	padding:10px;
+}
+header h1 a{
+	font-size:2rem;
 	font-weight:bold;
+}
+header nav ul li a{
+	font-size:1.2rem;
 }
 nav{
 	background-color:white;
@@ -29,19 +50,6 @@ nav{
 	padding:20px;
 	border:5px dashed black;
 	text-align:center;
-}
-nav a{
-	letter-spacing:2px;
-}
-nav a::after{
-	content:"ㅣ";
-	color:gray;
-}
-nav a:last-child::after{
-	content:"";
-}
-#main{
-	
 }
 
 .division-line{
