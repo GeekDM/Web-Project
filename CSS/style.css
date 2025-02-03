@@ -89,10 +89,6 @@ main button.mouse{
 	animation:upDown 1s ease-in-out infinite;
 	cursor:pointer;
 }
-i{
-	font-size:30px;
-	color:white;
-}
 @keyframes upDown{
 	0%{
 		bottom:1rem;
