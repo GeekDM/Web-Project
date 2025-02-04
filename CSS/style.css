@@ -88,13 +88,21 @@ main button.pingping{
 	cursor:pointer;
 	z-index:1;
 }
-.grass{
-	background-color:#00ff68;
+.ground{
+	border-top:3px dotted #ffffff;
+	background-color:#dee7c7;
 	width:100%;
 	height:25px;
 	position:absolute;
 	bottom:0rem;
 	left:0%;
+
+}
+.dot {
+    position: absolute;
+    width: 0.5px;
+    height: 0.5px;
+    border-radius: 50%;
 }
 main button.pineapple{
 	background-color:transparent;
