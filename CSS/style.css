@@ -77,29 +77,35 @@ main button.MG{
 	font-weight:bold;
 	cursor:pointer;
 }
-main button.mouse{
+main button.pingping{
 	background-color:transparent;
 	border:none;
-	color:white;
-	font-size:2rem;
 	position:absolute;
 	bottom:1rem;
 	left:50%;
 	transform:translateX(-50%);
 	animation:upDown 1s ease-in-out infinite;
 	cursor:pointer;
+	z-index:1;
 }
-@keyframes upDown{
-	0%{
-		bottom:1rem;
-	}
-	50%{
-		bottom:1.5rem;
-	}
-	100%{
-		bottom:1rem;
-	}
+.grass{
+	background-color:#00ff68;
+	width:100%;
+	height:25px;
+	position:absolute;
+	bottom:0rem;
+	left:0%;
 }
+main button.pineapple{
+	background-color:transparent;
+	border:none;
+	position:absolute;
+	bottom:0.7rem;
+	left:65%;
+	cursor:pointer;
+	z-index:1;
+}
+
 main h2 span::after{
 	content:"";
 	height:40px;
@@ -121,4 +127,14 @@ main h2 span::after{
 	margin:30px auto;
 	width:300px;
 }
-
+@keyframes upDown{
+	0%{
+		bottom:1rem;
+	}
+	50%{
+		bottom:1.5rem;
+	}
+	100%{
+		bottom:1rem;
+	}
+}
