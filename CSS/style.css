@@ -113,6 +113,24 @@ main button.pineapple{
 	cursor:pointer;
 	z-index:1;
 }
+main button.jing{
+	background-color:transparent;
+	border:none;
+	position:absolute;
+	bottom:0.7rem;
+	left:52%;
+	cursor:pointer;
+	z-index:1;
+}
+main button.ddung{
+	background-color:transparent;
+	border:none;
+	position:absolute;
+	bottom:0.7rem;
+	left:36%;
+	cursor:pointer;
+	z-index:1;
+}
 
 main h2 span::after{
 	content:"";
