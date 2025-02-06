@@ -4,6 +4,9 @@ main{
 	color:white;
 	background-position:center;
 	background-color:black;
+	background: url("../images/pom.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 	display:flex;
 	justify-content:space-around;
 	align-content:center;
