@@ -1,4 +1,4 @@
-main{
+.p{
 	width:100%;
 	height:100vh;
 	color:white;
@@ -8,5 +8,9 @@ main{
 	justify-content:space-around;
 	align-content:center;
 	flex-flow:column wrap;
-
+}
+.stack_page ul{
+	display:flex;
+	justify-content:space-around;
+	flex-flow:row wrap;
 }
