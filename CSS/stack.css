@@ -9,8 +9,16 @@
 	align-content:center;
 	flex-flow:column wrap;
 }
+.stack_page{
+	width:80%;
+	height:50vh;
+	position:relative;
+	left:10%;
+	align-content:center;
+}
+
 .stack_page ul{
 	display:flex;
 	justify-content:space-around;
-	flex-flow:row wrap;
+	
 }
