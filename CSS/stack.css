@@ -15,10 +15,15 @@
 	position:relative;
 	left:10%;
 	align-content:center;
+
 }
 
 .stack_page ul{
 	display:flex;
 	justify-content:space-around;
-	
+	flex-wrap:wrap;
+}
+.stack_page ul li{
+	width:30%;
+	height:20vh;
 }
