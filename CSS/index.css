@@ -30,6 +30,10 @@ main button.MG{
 	font-weight:bold;
 	cursor:pointer;
 }
+main button.MG:hover{
+	background-color:white;
+	color:black;
+}
 main button.pingping{
 	background-color:transparent;
 	border:none;
