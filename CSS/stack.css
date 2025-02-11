@@ -13,17 +13,21 @@
 	width:80%;
 	height:100vh;
 	position:relative;
-	left:10%;
+	left:20%;
 	align-content:center;
 
 }
 
 .stack_page ul{
+	padding-bottom:3px;
 	display:flex;
 	justify-content:space-around;
 	flex-wrap:wrap;
 }
 .stack_page ul li{
 	width:30%;
-	height:20vh;
+	height:30vh;
+	display:flex;
+	justify-content:space-around;
+	align-content:center;
 }
