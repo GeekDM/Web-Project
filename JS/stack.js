@@ -9,6 +9,6 @@ img.forEach(function(event) {event.addEventListener('mousemove', function(e){
 	var rotateX = -1/7.5 * x + 20
 	var rotateY = 1/7.5 * y - 20
 	
-	event.style = `transform : rotateX({$rotateX}deg) rotateY({$rotateY}deg)`
+	event.style = `transform : rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
 	})
 })
