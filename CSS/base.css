@@ -50,3 +50,11 @@ header nav ul li a{
 	margin:30px auto;
 	width:300px;
 }
+footer ul{
+	margin-left:2px;
+	margin-right:2px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+}
