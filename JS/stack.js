@@ -4,6 +4,8 @@ let overlay = document.querySelectorAll('.overlay')
 img.forEach(function(event) {event.addEventListener('mousemove', function(e){
 	var x = e.offsetX
 	var y = e.offsetY
+	
+	console.log(x, y)
 		
 	var rotateX = 1/7.5 * y - 20
 	var rotateY = -1/7.5 * x + 20
@@ -21,9 +23,9 @@ overlay.forEach(function(event2) {event2.addEventListener('mousemove', function(
 	})
 })
 
-img.forEach(function(event3) {event3.addEventListener('mouseout'), function(){
+img.forEach(function(event3) {event3.addEventListener('mouseout', function(){
 	overlay.style = 'filter : opacity(0)'
 	event3.style = 'transform : perspective(300px) rotateX(0deg) rotateY(0deg)'
 		}
-	}
+	)}
 )
