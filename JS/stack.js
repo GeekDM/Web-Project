@@ -1,31 +1,26 @@
-let container = document.querySelectorAll('.stack_container')
-let overlay = document.querySelectorAll('.overlay')
+let containers = document.querySelectorAll('.stack_container');
 
-container.forEach(function(event) {event.addEventListener('mousemove', function(e){
-	var x = e.offsetX
-	var y = e.offsetY
-	
-	console.log(x, y)
-		
-	var rotateX = 1/7.5 * y - 20
-	var rotateY = -1/7.5 * x + 20
+containers.forEach(container => {
+    let overlay = container.querySelector('.overlay'); // 각 컨테이너의 overlay 찾기
 
-	event.style = `transform : perspective(300px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
-	})
-})
+    // 마우스 이동 시 컨테이너 회전
+    container.addEventListener('mousemove', function(e) {
+        let x = e.offsetX;
+        let y = e.offsetY;
+        
+        let rotateX = (1 / 7.5) * y - 20;
+        let rotateY = (-1 / 7.5) * x + 20;
 
-overlay.forEach(function(event2) {event2.addEventListener('mousemove', function(e2){
-	var x = e2.offsetX
-	var y = e2.offsetY
-	
-	event2.style = `background-position : ${x/5 + y/5}%`
-	
-	})
-})
+        container.style.transform = `perspective(300px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 
-container.forEach(function(event3) {event3.addEventListener('mouseout', function(){
-	overlay.style = 'filter : opacity(0)'
-	event3.style = 'transform : perspective(300px) rotateX(0deg) rotateY(0deg)'
-		}
-	)}
-)
+        // 오버레이 움직이기 (배경 위치 변경)
+        overlay.style.backgroundPosition = `${x/30 + y/30}%`;
+        overlay.style.filter = "opacity(0.8)"; // 보이게 설정
+    });
+
+    // 마우스가 나갔을 때 초기화
+    container.addEventListener('mouseout', function() {
+        overlay.style.filter = "opacity(0)"; // 투명하게 만들기
+        container.style.transform = "perspective(300px) rotateX(0deg) rotateY(0deg)";
+    });
+});
