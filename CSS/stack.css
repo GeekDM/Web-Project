@@ -45,8 +45,8 @@
 		transparent 54%	);
 	filter: brightness(1.1) opacity(0.8);
 	mix-blend-mode: color-dodge;
-	background-size:100% 100%;
-	background-position:100%;
+	background-size:150% 150%;
+	background-position:50%;
 	transition: all 0.1s;
 }
 
