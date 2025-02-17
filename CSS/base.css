@@ -58,3 +58,6 @@ footer ul{
 	align-items:center;
 	flex-wrap:wrap;
 }
+footer ul li{
+	margin:2px 5px;
+}
