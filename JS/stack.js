@@ -14,8 +14,8 @@ containers.forEach(container => {
         container.style.transform = `perspective(300px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 
         // 오버레이 움직이기 (배경 위치 변경)
-        overlay.style.backgroundPosition = `${x/2}% ${y/2}%`;
-        overlay.style.filter = "brightness(3.0) opacity(0.8)"; // 보이게 설정
+        overlay.style.backgroundPosition = `${x/3}% ${y/3}%`;
+        overlay.style.filter = "brightness(1.1) opacity(0.8)"; // 보이게 설정
     });
 
     // 마우스가 나갔을 때 초기화
