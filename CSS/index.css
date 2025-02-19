@@ -3,7 +3,7 @@ main{
 	height:100vh;
 	color:white;
 	background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/me.gif') center center;
-	background-size:1000px 717.5px;
+	background-size:1000px 718px;
 	background-position:center;
 	background-repeat:no-repeat;
 	background-color:black;
@@ -97,6 +97,24 @@ main h2 span::after{
 	display:inline-block;
 	animation:blink .7s ease-in-out infinite;
 }
+
+section{
+	height:100vh;
+}
+.section1{
+	width:840px;
+	height:0 auto;
+}
+.section1 .section_head{
+	padding:3px;
+	margin:7px;
+	display:flex;
+	justify-content:space-between;
+}
+.section1 .section_body{
+	display:grid;
+}
+
 @keyframes blink{
 	0%{
 		opacity:1;
