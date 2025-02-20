@@ -103,7 +103,7 @@ section{
 }
 .section1{
 	width:840px;
-	height:0 auto;
+	height:420px;
 	margin:7px;
 	padding:3px;
 }
@@ -115,13 +115,14 @@ section{
 }
 .section1 .section_body{
 	display:flex;
-	flex-direction:row;
+	flex-flow:row wrap;
 	justify-content:start;
-	align-items:start;
-	flex-basis:280px;
+	align-items:flex-start;
+	align-content:flex-start;
 }
 .section1 .section_body .item{
-	
+	width:280px;
+	height:200px;
 }
 
 @keyframes blink{
