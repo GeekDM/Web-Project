@@ -104,6 +104,8 @@ section{
 .section1{
 	width:840px;
 	height:0 auto;
+	margin:7px;
+	padding:3px;
 }
 .section1 .section_head{
 	padding:3px;
@@ -112,7 +114,14 @@ section{
 	justify-content:space-between;
 }
 .section1 .section_body{
-	display:grid;
+	display:flex;
+	flex-direction:row;
+	justify-content:start;
+	align-items:start;
+	flex-basis:280px;
+}
+.section1 .section_body .item{
+	
 }
 
 @keyframes blink{
