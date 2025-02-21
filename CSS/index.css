@@ -119,6 +119,8 @@ section{
 
 }
 .section1 .section_body ul{
+	width:100%;
+	height:100%;
 	display:flex;
 	flex-flow:row wrap;
 	justify-content:start;
@@ -127,6 +129,7 @@ section{
 }
 .section1 .section_body li{
 	flex:1 30%;
+	height:50%;
 }
 
 @keyframes blink{
