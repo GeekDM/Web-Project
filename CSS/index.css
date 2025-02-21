@@ -125,9 +125,8 @@ section{
 	align-items:flex-start;
 	align-content:flex-start;
 }
-.section1 .section_body .item{
-	width:280px;
-	height:200px;
+.section1 .section_body li{
+	flex:1 30%;
 }
 
 @keyframes blink{
