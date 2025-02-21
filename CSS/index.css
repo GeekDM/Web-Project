@@ -116,6 +116,9 @@ section{
 .section1 .section_body{
 	width:840px;
 	height:400px;
+
+}
+.section1 .section_body ul{
 	display:flex;
 	flex-flow:row wrap;
 	justify-content:start;
