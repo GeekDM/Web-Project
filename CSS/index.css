@@ -131,6 +131,10 @@ section{
 	flex:1 30%;
 	height:50%;
 }
+.section1 .section_body li button:hover{
+	width:105%;
+	height:105%;
+}
 
 @keyframes blink{
 	0%{
