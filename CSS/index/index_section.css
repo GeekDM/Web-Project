@@ -57,11 +57,14 @@ section ul{
 	height:100%;
 	display:flex;
 	flex-flow:row wrap;
-	justify-content:start;
-	align-items:flex-start;
-	align-content:flex-start;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
 }
 section li{
+	justify-content:center;
+	align-content:center;
+
 	flex:1 30%;
 	height:50%;
 }
