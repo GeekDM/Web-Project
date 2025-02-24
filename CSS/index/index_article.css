@@ -1,9 +1,15 @@
 article{
-	width:50px;
+	width:10%;
 	position:fixed;
+	top:30vh;
+	right:1rem;
 	z-index:1;
 	background-color:green;
 }
-article a{
-	background-color:green;
+.article_container{
+	display:flex;
+	flex-flow:column wrap;
+	justify-content:space-around;
+	align-content:center;
+	align-items:center;
 }
