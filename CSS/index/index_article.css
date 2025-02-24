@@ -1,0 +1,9 @@
+article{
+	width:50px;
+	position:fixed;
+	z-index:1;
+	background-color:green;
+}
+article a{
+	background-color:green;
+}
