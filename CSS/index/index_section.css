@@ -8,6 +8,8 @@ section{
 	padding:3px;
 }
 .section1 .section_head{
+	width:100%;
+	height:5%;
 	padding:3px;
 	margin:4px;
 	display:flex;
@@ -15,7 +17,7 @@ section{
 }
 .section1 .section_body{
 	width:100%;
-	height:100%;
+	height:95%;
 }
 .section2{
 	width:840px;
@@ -24,6 +26,8 @@ section{
 	padding:3px;
 }
 .section2 .section_head{
+	width:100%;
+	height:5%;
 	padding:3px;
 	margin:7px;
 	display:flex;
@@ -31,7 +35,7 @@ section{
 }
 .section2 .section_body{
 	width:100%;
-	height:100%;
+	height:95%;
 }
 .section3{
 	width:840px;
@@ -40,6 +44,8 @@ section{
 	padding:3px;
 }
 .section3 .section_head{
+	width:100%;
+	height:5%;
 	padding:3px;
 	margin:7px;
 	display:flex;
@@ -47,11 +53,10 @@ section{
 }
 .section3 .section_body{
 	width:100%;
-	height:100%;
+	height:95%;
 }
 section ul{
-	width:100%;
-	height:100%;
+
 	display:grid;
 	grid-template-columns:repeat(3, 1fr);
 	grid-auto-rows:minmax(100px, auto);
