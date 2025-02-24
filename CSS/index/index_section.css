@@ -1,5 +1,6 @@
 section{
 	height:150vh;
+	display:grid;
 }
 .section1{
 	width:840px;
